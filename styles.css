@@ -1,0 +1,27 @@
+body {
+    color: rgb(0, 0, 0); 
+    background-color: rgb(4, 64, 67); /* taustan väri */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* fontti */
+    background-image: url(kendrick\ etusivu.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+}
+
+h1 {
+    font-size: 4em; 
+    font-weight: bold; 
+    font-family: 'Poppins', sans-serif; /* Käytä Poppins-fonttia */
+}
+p {
+    font-family: 'Work Sans', sans-serif; /* Käytä Work Sans -fonttia */
+    font-weight: 400; /* Normaali painotus */
+    font-size: 1em; /* Voit säätää fontin kokoa tarpeen mukaan */
+    line-height: 1.6; /* Lisää riviväliä, jotta teksti on helpompi lukea */
+}
+a {
+    display: inline-block; /* Ensures links are treated as blocks but stay inline */
+    margin-right: 15px; /* Adds spacing between links */
+    text-decoration: none; /* Optional: removes underline */
+    color: inherit; /* Optional: keeps the text color consistent */
+}
